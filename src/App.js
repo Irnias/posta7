@@ -72,6 +72,7 @@ function App() {
           <Input placeholder='Tu Respuesta' {...respuesta} />
           <Button>Enviar respuesta</Button>
         </Form>
+        <p> Por consultas o dudas pueden contactar a cualquier diri n.n</p>
       </header>
     </div>
   );

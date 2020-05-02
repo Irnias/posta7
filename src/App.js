@@ -31,7 +31,12 @@ const Button = styled.button`
 let result = false;
 
 function handleSubmit(event) {
-  (result) ? alert("Correcto! 87, al dar vuelta la imagen y leer los aparcamientos bien, y 'LA' se encuentra repetido en la segunda imagen") : alert("Respuesta incorrecta!")
+  if(result){
+    alert("Correcto! Que bueno que no leiste solo el final!!")
+    window.location.href = "https://invitacion.now.sh/"
+  } else {
+    alert("Respuesta incorrecta!")
+  }
   event.preventDefault();
 }
 
